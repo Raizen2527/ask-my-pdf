@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ask My PDF</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+  <div class="container">
+    <h1>📄 Ask My PDF</h1>
+
+    <input type="file" id="pdfFile" accept=".pdf">
+
+    <p id="status">Choose a PDF to begin.</p>
+
+    <textarea id="question"
+      placeholder="Ask something about your PDF..."></textarea>
+
+    <button id="askButton">Ask Gemini</button>
+
+    <div id="answer"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
